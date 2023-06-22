@@ -1,0 +1,591 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat',sans-serif;
+  box-sizing: border-box;
+}
+
+/*Start Header part*/
+
+header{
+  background-image: url(./images/background.png);
+  height: 670px;
+
+}
+
+
+.container{
+  display: flex;
+}
+
+.nav-left{
+  display: flex;
+  align-items: center;
+  height: 90px;
+  margin-bottom: 125px;
+}
+
+.nav-left h2{
+  font-weight: 700;
+  font-size: 24px;
+  width: 160px;
+  height: 32px;
+  margin-left: 180px;
+
+
+}
+
+.nav-left a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav-left ul {
+  display: flex;
+  list-style: none;
+  gap: 21px;
+  margin-left: 83px;
+  margin-right: 235px;
+}
+
+.nav-left ul li {
+  font-weight: 600;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0.2px;
+}
+.nav-left ul li a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav-right{
+  display: flex;
+  list-style: none;
+  margin-top: 34px;
+  gap: 45px;
+}
+
+.login{
+  font-weight: 700;
+  font-size: 14px;
+  width: 41px;
+  height: 22px;
+  color: #fff;
+  text-decoration: none;
+
+}
+
+.registr{
+  background-color: #23A6F0;
+  padding: 15px 25px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.hero{
+  margin-left: 195px;
+}
+
+
+.hero h1 {
+  color: #fff;
+  font-weight: 800;
+  font-size: 58px;
+  letter-spacing: 0.2px;
+  width: 599px;
+  height: 160px;
+  margin-bottom: 35px;
+}
+
+
+.hero p{
+  color: #fff;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 0.2px;
+  width: 376px;
+  height: 60px;
+  margin-bottom: 35px;
+}
+
+.hero-buttons{
+  display: flex;
+
+}
+
+.button1 {
+  width: 185px;
+  height: 52px;
+  background: #23A6F0;
+  border-radius: 37px;
+  margin-left: 195px;
+}
+
+.button1 a{
+  text-decoration: none;
+}
+
+.button2 a{
+  text-decoration: none;
+}
+
+
+.button1 a p{
+
+  text-decoration: none;
+  margin-top: 15px;
+  margin-left: 36px;
+  color: white;
+
+}
+
+.button2 {
+  margin-left: 10px;
+  width: 150px;
+  height: 52px;
+  border: 1px solid white;
+  border-radius: 37px;
+
+}
+
+.button2 a p{
+  text-decoration: none;
+  margin-top: 15px;
+  margin-left: 30px;
+  color: white;
+
+}
+
+/* The Header part is end */
+
+
+
+/*Start Main part*/
+
+#guarantees {
+  display: flex;
+  background-color: #252B42;
+  height: 435px;
+  gap: 134px;
+  padding-left: 197px;
+}
+
+.guarantee-box{
+ margin-top: 96px;
+ text-align: center;
+ color: white;
+}
+
+.guarantee-box i{
+ width: 68px;
+ height: 59px;
+
+}
+
+.guarantee-box h4{
+  margin-top: 29.29px;
+  margin-bottom: 10px;
+}
+
+#feedback{
+  height: 772px;
+  background: #8EC2F2;
+}
+
+.feedback-intro h2{
+  text-align: center;
+  padding-top: 112px;
+  color: #fff;
+
+}
+
+.feedback-intro p{
+  text-align: center;
+  margin-top: 10px;
+  color: #fff;
+}
+
+.feedback-card{
+  position: relative;
+  margin-top: 120px;
+  margin-left: 240.5px;
+  width: 450px;
+
+  background-color: #fff;
+}
+
+.feedback-box {
+  display: flex;
+
+
+  position: relative;
+
+}
+
+.author {
+  padding-top: 30px;
+  margin-left: 40px;
+}
+
+.author-role{
+  margin-left: 40px;
+}
+
+.rates{
+  margin-top: 16.83px;
+  margin-left: 41.83px;
+  margin-bottom: 16.83px;
+}
+
+.feedback-text{
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.photo1 {
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 193.5;
+}
+
+.photo2 {
+  position: absolute;
+  margin-top: 50px;
+  padding-left: 193.5;
+}
+
+.feed {
+  display: flex;
+}
+
+.feedback-card{
+
+  margin-top: 120px;
+  margin-left: 137px;
+  width: 450px;
+  height: 288.01px;
+  background-color: #fff;
+}
+
+#projects{
+  height: 879px;
+  background-color: #252B42;
+}
+
+.projects-intro{
+  color: #fff;
+  text-align: center;
+  padding-top: 112px;
+
+}
+
+.project-card-box {
+  display: flex;
+  margin-left: 17px;
+  gap: 21px;
+  margin-top: 96px;
+}
+
+
+.project-card-box a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.project-card1 {
+  color: #fff;
+  width: 331px;
+  height: 452px;
+  background-image: url(./images/media\ bg-cover.png);
+}
+.project-card2 {
+  color: #fff;
+  width: 331px;
+  height: 452px;
+  background-image: url(./images/media\ bg-cover\ \(1\).png);
+}
+
+.project-card3 {
+  color: #fff;
+  width: 331px;
+  height: 452px;
+  background-image: url(./images/media\ bg-cover\ \(2\).png);
+}
+
+.project-card4 {
+  color: #fff;
+  width: 331px;
+  height: 452px;
+  background-image: url(./images/media\ bg-cover\ \(3\).png);
+}
+
+.pro-text h5{
+  margin-top: 278.5px;
+  margin-left: 20px;
+}
+
+.pro-text h4{
+  margin-top: 15px;
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
+
+.pro-text a{
+  margin-left: 20px;
+  width: 165px;
+  height: 42px;
+  padding: 10px 36px;
+  background: #23A6F0;
+  border-radius: 37px;
+}
+
+/*the next step*/
+
+#pricing {
+  background-color: #252B42;
+
+  height: 1155px;
+}
+.pricing-card{
+  margin-top: 106px;
+  background-color: #fff;
+  align-items: center;
+  padding: 50px 40px;
+  width: 327px;
+  border: 1px solid #DEDEDE;
+  border-radius: 10px;
+}
+
+.pricing-intro{
+  text-align: center;
+  color: #fff;
+  padding-top: 112px;
+
+}
+
+.pricing-card h3{
+ text-align: center;
+ padding-top: 50px;
+ margin-bottom: 35px;
+}
+
+.pricing-p{
+  color: #737373;
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.price-amount{
+  text-align: center;
+  font-weight: 700;
+  font-size: 40px;
+  color: #23A6F0;
+}
+
+.price-month{
+  text-align: center;
+  color: #8EC2F2;
+  margin-bottom: 35px;
+}
+
+.free {
+  width: 246px;
+  height: 52px;
+  background: #23A6F0;
+  border-radius: 5px;
+  margin-bottom: 36.37px;
+}
+
+.free a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.free p{
+  padding-top: 15px ;
+  text-align: center;
+}
+
+.accibbilty{
+  gap: 10px;
+  align-items: center;
+  display: flex;
+}
+
+.accibbilty h6 {
+  font-weight: 600;
+  font-size: 14px;
+  color: #252B42;
+  margin-bottom: 17.75px;
+}
+
+.pricing-card-box{
+  display: flex;
+  gap: 31px;
+  justify-content: center;
+}
+
+#contact {
+  background-image: url(./images/background\ \(1\).png);
+  height: 670px;
+
+}
+
+.contact-form{
+ padding-top: 50px;
+ margin-left: 195px;
+ width: 602px;
+ height: 571px;
+}
+
+.contact-form h5{
+  margin-top: 90px;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  color: #252B42;
+}
+
+.contact-form h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+  color: #252B42;
+  margin-bottom: 40px;
+}
+
+.box-name-email {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+
+}
+
+#name {
+
+  width: 296px;
+  height: 50px;
+  border-radius: 5px;
+}
+
+#email {
+  width: 285px;
+  height: 50px;
+  border-radius: 5px;
+}
+
+#role {
+  width: 285px;
+  height: 50px;
+  border-radius: 5px;
+}
+
+#time{
+  width: 285px;
+  height: 50px;
+  border-radius: 5px;
+}
+
+#message{
+  width: 601px;
+  height: 140px;
+  border-radius: 5px;
+}
+
+#book-button{
+  margin-top: 40px;
+  padding: 15px 40px;
+  width: 218px;
+  height: 52px;
+  background: #23A6F0;
+  border-radius: 5px;
+}
+
+.contact-consulting{
+  padding-top: 41px;
+  display: flex;
+  gap: 398px;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.consulting-left h3{
+  font-weight: 700;
+  font-size: 24px;
+  color: #252B42;
+  line-height: 32px;
+}
+
+.consulting-left p{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #737373;
+}
+
+#consulting-right-btn {
+  align-items: center;
+  padding: 15px 40px;
+  width: 160px;
+  height: 52px;
+  background-color: #23A6F0;
+  border-radius: 5px;
+
+}
+
+.footer-details{
+  padding-top: 50px;
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  background-color: #252B42;
+  color:#fff ;
+  height: 272px;
+
+}
+
+
+.company-info a{
+
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+}
+.company-info ul li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.company-info h4 {
+  margin-bottom: 20px;
+}
+
+.footer-copyright {
+  display: flex;
+  justify-content: center;
+  gap: 507.5px;
+  padding-top: 25px;
+  margin-bottom: 25px;
+}
+
+.copyright-text{
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+
+.social-networks a {
+
+  margin-left: 22px;
+  color: #23A6F0;
+}
+
+.social-networks a i {
+  width: 23px;
+  height: 23px;
+}
